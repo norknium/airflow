@@ -36,5 +36,5 @@ jobs:
           build-args: |
             AIRFLOW_VERSION=2.6.3
             AIRFLOW_EXTRAS=async,celery,cncf.kubernetes,dask,docker,grpc,http,ldap,postgres,redis,statsd,virtualenv,pandas,telegram,influxdb,mongo,papermill
-            PYTHON_BASE_IMAGE=python:3.10-slim-buster
+            PYTHON_BASE_IMAGE=python:3.10.12
             ADDITIONAL_PYTHON_DEPS=scikit-learn==1.0.2 slack-sdk==3.14.1 simplejson==3.17.6 glom==22.1.0 fastapi==0.70.0 pandas-datareader==0.10.0 openpyxl==3.0.9 kubernetes==23.6.0 junitparser==3.1.0 apache-airflow-providers-sftp==4.3.0 minio
