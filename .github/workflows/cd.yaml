@@ -37,4 +37,4 @@ jobs:
             AIRFLOW_VERSION=2.6.2
             AIRFLOW_EXTRAS=async,celery,cncf.kubernetes,dask,docker,grpc,http,ldap,postgres,redis,statsd,virtualenv,pandas,telegram,influxdb,mongo,papermill
             PYTHON_BASE_IMAGE=python:3.8-slim-bullseye
-            ADDITIONAL_PYTHON_DEPS=scikit-learn slack-sdk simplejson glom fastapi pandas-datareader openpyxl kubernetes junitparser apache-airflow-providers-sftp minio
+            ADDITIONAL_PYTHON_DEPS=scikit-learn==1.0.2 slack-sdk simplejson glom fastapi pandas-datareader openpyxl kubernetes==23.6.0 junitparser apache-airflow-providers-sftp minio
